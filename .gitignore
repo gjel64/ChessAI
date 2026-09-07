@@ -22,11 +22,6 @@ cache/
 *.u16
 *.f16
 
-# Checkpoints
-*.pt
-*.pth
-*.ckpt
-
 # OS / editeurs
 .DS_Store
 Thumbs.db
