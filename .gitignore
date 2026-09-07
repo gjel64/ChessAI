@@ -1,0 +1,35 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Données brutes Lichess (5,3 Go — retelechargeable via URL_DATA dans supervised-learning.py)
+*.jsonl.zst
+*.jsonl
+lichess_db_eval*
+
+# Cache d'encodage genere par data.py (13 Go)
+cache/
+*.i64
+*.u8
+*.u16
+*.f16
+
+# Checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# OS / editeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
